@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(49, 44, 44);
+    color: aquamarine;
+    text-align: center;
+}
+h1{
+    font-size: 5rem;
+    
+}
+
+.playboard{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.palyer1-dice,.palyer2-dice{
+    margin: 80px ;
+}
+
+@media (max-width:765px) { 
+    .playboard{
+        flex-direction: column;
+    }
+
+    .palyer1-dice,.palyer2-dice{
+        margin: 40px ;
+    }
+    
+}
+@media (max-width:350px) { 
+    .playboard{
+        flex-direction: column;
+    }
+
+    .palyer1-dice,.palyer2-dice{
+        margin: 20px ;
+    }
+    img{
+        width: 50%;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    
+}
+@media (max-width:256px){
+    h3{
+        font-size: 0.9rem;
+    }
+    img{
+        width: 55% ;
+    }
+}
